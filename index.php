@@ -60,7 +60,7 @@
 				echo "<a class='dropdown-item' href='login.php'><h3>Login</h3></a>";
 		?>
             <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#"><h3>Browse Submissions</h3></a>
+            <a class="dropdown-item" href="#"><h3>Admin Page</h3></a>
           </div>
         </div>
     </div> <!-- img-fluid will scaled images to the size of their parent -->
@@ -115,7 +115,7 @@
 	<td>Title</td>
 	<td><?php
 		$row = $result->fetch_assoc();
-		echo $row["paragraph"];	
+		echo $row["text"];	
 	?></td>
 </tr>
 </table>

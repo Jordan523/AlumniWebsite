@@ -1,8 +1,8 @@
 <?php
 
 	$username = "root";
-	$password = "Jas52397";
+	$password = "password";
 	$host = "localhost";
-	$dbname = "Alumni_Tables";
+	$dbname = "alumni";
 	
 ?>
