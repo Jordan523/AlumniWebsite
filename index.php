@@ -46,7 +46,7 @@
       <div class="col-sm-1">
         <div class="dropdown">
           <button type="button" class="btn" data-toggle="dropdown">
-            <img src='burger-menu.jpg' class='img-fluid'>
+            <img src='images/burger-menu.jpg' class='img-fluid'>
           </button>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#"><h3>Home</h3></a>

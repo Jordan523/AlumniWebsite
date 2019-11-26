@@ -16,7 +16,10 @@ html, body {
 }
 
 body {
+  /**
   background: url('https://adminfinance.umw.edu/facilities/files/2018/09/umw-11132017-027.jpg') no-repeat center center fixed;
+  **/
+  background: url('images/BG.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
