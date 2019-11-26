@@ -28,6 +28,7 @@ body {
 .header {
   background-color: #0D3559;
   color:white;
+  margin-top:0%;
 }
 
 .header h1 {
@@ -42,7 +43,7 @@ body {
 }
 
 .header .dropdown-menu {
-  margin-top:5%;
+  margin-top:0%;
   background-color:#0D3559;
   opacity:0.9;
   color:white;
@@ -73,6 +74,36 @@ body {
   background-color:#0D3559;
   opacity:0.9;
 }
+
+.topnav {
+	overflow: hidden;
+	background-color: #4D6B8B;
+	z-index: 1000;
+	margin-top:0%;
+	width: 100%;
+}
+
+.topnav .btn{
+	color:white;
+	margin-right.5%;
+}
+
+
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 8px 20px;
+	text-decoration: none;
+	font-size: 16px;
+	width: 16.6666666666%;
+}
+
+.topnav a:hover {
+	background-color: #686663;
+	color: white;
+}
+
 
 .btn {
 	border: none;

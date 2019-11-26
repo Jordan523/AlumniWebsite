@@ -39,6 +39,7 @@
 </head>
 
 <body>
+
 <!-- Container for header -->
 <div class="container-fluid"> <!-- container-fluid is a full width container. it scales to the screen width -->
     <div class="row header"> <!-- each row can contain up to 12 columns. no matter what, all col must add up to 12 -->
@@ -73,6 +74,26 @@
 	?>
       </div>
 </div>
+
+<!-- Navbar-->
+
+
+<!-- Test for topnav bar -->
+	<div class="topnav">
+		<a href ="#home"><img src="images/home.png" width="15" height="15"><br>Home</a>
+		<a href ="#T3"><img src="images/wrench.png" width="15" height="15"><br>Tools, Tips and Tricks</a>
+		<a href ="#intern"><img src="images/briefcase.png" width="15" height="15"><br>Internships</a>
+		<a href ="#CTF"><img src="images/flag.png" width="15" height="15"><br>Capture the Flag</a>
+		<a href ="#Research"><img src="images/books.png" width="15" height="15"><br>Research</a>
+
+		<div class="dropdown-menu">
+			<a class="dropdown-item" href="#"><h3>Home</h3></a>
+		</div>
+	
+	</div>
+
+
+
 
 <div class="jumbotron main"> <!-- jumbotron acts like a big screen, and anything inside of it is fit to its dimensions -->
   <div class="container-fluid"> <!-- normally this would watch screen-width, but since it's in a jumbotron, it only matches jumbotron width -->
